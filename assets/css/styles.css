@@ -1,16 +1,24 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(45deg, rgb(170, 168, 168), rgb(39, 38, 38)) ;
+    background: linear-gradient(45deg, rgb(99, 181, 236), rgb(119, 134, 167)) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
 .main{
+
     padding: 20px;
     border-style: single;
     border-radius: 16px;
-    box-shadow: 10px 10px  rgb(192, 185, 185) ;
-    background: linear-gradient(60deg, rgb(139, 235, 230),rgb(205, 219, 123)); 
-    width: 400px;
-    justify-content: center;
+    box-shadow: 10px 10px  rgb(92, 113, 114) ;
+    background: linear-gradient(45deg, rgb(139, 235, 230),rgb(158, 158, 156)); 
+    width: 700px;
+    margin: 100px 0 0 400px;
     
 }
 .main div{
@@ -19,5 +27,17 @@ padding: 10px;
 margin: 10px;
 }
 .main label{
-    text-align: center;
+}
+button{
+    padding: 15px;
+align-content: center;
+background-color: beige;
+border-radius: 0 18px 0 20px;
+}
+ input{
+ width: 400px;
+ padding: 20px;
+ border-radius: 10px;
+ border-bottom: rgb(211, 210, 210);
+ align-items: center;
 }
