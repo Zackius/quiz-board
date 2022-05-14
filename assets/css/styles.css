@@ -31,13 +31,16 @@ margin: 10px;
 button{
     padding: 15px;
 align-content: center;
-background-color: beige;
+background-color: rgb(158, 158, 121);
 border-radius: 0 18px 0 20px;
 }
- input{
+.inputs input{
  width: 400px;
  padding: 20px;
  border-radius: 10px;
  border-bottom: rgb(211, 210, 210);
  align-items: center;
+}
+.check input{
+    display: inline;
 }
