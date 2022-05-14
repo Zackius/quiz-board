@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, rgb(170, 168, 168), rgb(39, 38, 38)) ;
+}
+.main{
+    padding: 20px;
+    border-style: single;
+    border-radius: 16px;
+    box-shadow: 10px 10px  rgb(192, 185, 185) ;
+    background: linear-gradient(60deg, rgb(139, 235, 230),rgb(205, 219, 123)); 
+    width: 400px;
+    justify-content: center;
+    
+}
+.main div{
+display: block;
+padding: 10px;
+margin: 10px;
+}
+.main label{
+    text-align: center;
+}
