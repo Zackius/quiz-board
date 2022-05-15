@@ -1,8 +1,9 @@
+
 var button = document.getElementById('btn')
 
 button.addEventListener('click')
 
-function click(){
+function button(){
     alert('Welcome')
 }
-click();
+console.log('button()')
