@@ -1,7 +1,9 @@
 # quiz-board
  ## By Zacharia Kamau
 ## Screenshot
- 
+
+ ![Screenshot from 2022-05-15 21-49-10](https://user-images.githubusercontent.com/88247115/168489118-808bf2ed-c673-41e5-a3ab-4edc41db6aa6.png)
+
  ## Table of Content
  - [Description](#description)
  - [Features](#features)
