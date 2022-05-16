@@ -9,19 +9,14 @@
 </head>
 <body>
     <forms>
-        <section class="main">
-            <div class="form">
-                <label for="" ><h4> Full Name</h4></label>
-            </div>
-           <div class="inputs">
-            <input type="text " placeholder="Full Name" >
-            <button onclick="newName()">Next </button>
-           </div>        
-        </section>
+     
         <section class="main">
             <div>
+                <h1>Javascript Quiz</h1>
+            </div>
+            <div>
               <ol>
-                <label for="" > <h4>What is Javascript?  (20 Marks)</h4></label>
+                <label for="" > <h4>What is Javascript? </h4></label>
                 
              
             </div>
@@ -41,9 +36,13 @@
               
             
                </div>
-           
+               <div>
+                <button> <a href="#main2"></a> Next</button>
+            </div>
+        </section>
+        <section class="main" id="main2">    
            </div>
-           <div> <label for="" > <h4> What is the Short form of Javascript? (Marks 30)</h4></label>
+           <div> <label for="" > <h4> What is the Short form of Javascript?</h4></label>
         </div>
        <div class="check">
            <div>
@@ -61,11 +60,15 @@
           
         
            </div>
-       
+           <div>
+            <button> <a href="#main3"></a>  Next</button>
+        </div>
        </div>
+        </section>
+        <section class="main" id="main3">
        <div>
 
-                <label for="" > <h4>What is a Variable (Marks 20)</h4></label>
+                <label for="" > <h4>What is a Variable</h4></label>
     </div>
    <div class="check">
        <div>
@@ -80,13 +83,16 @@
        <div>
         <input type="checkbox" ><label>A programming language</label>
        </div>
-      
+       <div>
+        <button  onclick="calc()">Next</button>
+    </div>
     
        </div>
-   
+        </section>
+        <section class="main" id="">   
    </div>
    <div>
-    <label for="" > <h4>Type of Data types in Javascript (Marks 10)</h4></label>
+    <label for="" > <h4>Type of Data types in Javascript</h4></label>
 </div>
 <div class="check">
    <div>
@@ -106,12 +112,13 @@
    </div>
 
 </div>
-</ol>  
+  </ol>  
 
             <div>
                 <button  onclick="calc()">Submit</button>
             </div>
-       
+     </section>
+
       
     </forms>
     <script src="./assets/js/main.js"></script>
