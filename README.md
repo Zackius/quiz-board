@@ -1,8 +1,8 @@
 # quiz-board
  ## By Zacharia Kamau
 ## Screenshot
+![Screenshot from 2022-05-16 08-34-06](https://user-images.githubusercontent.com/88247115/168526017-d57887a4-23a1-42b6-87b8-62a475515293.png)
 
- ![Screenshot from 2022-05-15 21-49-10](https://user-images.githubusercontent.com/88247115/168489118-808bf2ed-c673-41e5-a3ab-4edc41db6aa6.png)
 
  ## Table of Content
  - [Description](#description)
@@ -25,6 +25,7 @@
 | Press Submit|     |Pop up "Zacharia Kamau, Here is your Score.|
  [Go Back to the top](#quiz-board)
 ### Live Link
+https://zackius.github.io/quiz-board/
 
 ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
