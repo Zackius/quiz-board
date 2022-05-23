@@ -7,20 +7,21 @@ var fourthQuestion = document.getElementById('forms4')
 
 function  checkUp() {
     var answer = 0; 
-    var calc = forms1.value;
+    var calc = firstQuestion.value;
    if(calc == 'A programming language that makes websites interactive' ) {answer ++} 
 
 
-   var calc = forms2.value;
+   var calc = secondQuestion.value;
    if (calc == 'JS') { answer ++ }
 
 
-   var calc = forms3.value;
+   var calc = thirdQuestion.value;
    if (calc == 'A JS container for stroring data') { answer ++ }
 
 
-   var calc = forms4.value;
+   var calc = fourthQuestion.value;
    if (calc == 'Strings, Boolean, numbers, undefined,  and null ') {answer++    
    }
    document.write(answer)
 }
+checked()
